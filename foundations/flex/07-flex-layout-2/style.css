@@ -64,17 +64,20 @@ a {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  flex: 1;
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
+  padding: 30px;
+  justify-content: space-evenly;
 }
 
 .main .card {
   width: 200px;
+  height: 200px;
   flex: 0 0 200px;
   padding: 10px;
-  border: 1px solid #000
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border: 1px solid #FFF;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
 }
 
 
